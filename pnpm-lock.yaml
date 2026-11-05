@@ -12,8 +12,8 @@ importers:
         specifier: ^2.1.7
         version: 2.1.7
       '@mercuryworkshop/scramjet':
-        specifier: https://github.com/MercuryWorkshop/scramjet/releases/download/v1.1.0/mercuryworkshop-scramjet-1.1.0.tgz
-        version: https://github.com/MercuryWorkshop/scramjet/releases/download/v1.1.0/mercuryworkshop-scramjet-1.1.0.tgz
+        specifier: ^1.1.0
+        version: 1.1.0
       '@titaniumnetwork-dev/ultraviolet':
         specifier: ^3.2.10
         version: 3.2.10
@@ -221,10 +221,6 @@ packages:
 
   '@mercuryworkshop/bare-mux@2.1.7':
     resolution: {integrity: sha512-BUamyc7jsIFbWQVVWjVjaD+Wot77EPwolkrbP3UuIs6QeHR1RY52+IR2fq3GkRAbOOrAZNT7EgZSsupkh1NowQ==}
-
-  '@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz':
-    resolution: {tarball: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz}
-    version: 2.0.0-alpha
 
   '@mercuryworkshop/wisp-js@0.4.0':
     resolution: {integrity: sha512-rtUSxW8krWS5RGtcFomnoQl/9nrsDnUh7duPcJeQtIqnt5txB7AZJEa6N87CD7UXJzCZVijr1mUHwZy0kHJ+fQ==}
@@ -836,17 +832,6 @@ snapshots:
       '@shikijs/vscode-textmate': 10.0.2
 
   '@mercuryworkshop/bare-mux@2.1.7': {}
-
-  '@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz':
-    dependencies:
-      '@mercuryworkshop/bare-mux': 2.1.7
-      dom-serializer: 2.0.0
-      domhandler: 5.0.3
-      domutils: 3.2.2
-      htmlparser2: 10.0.0
-      idb: 8.0.3
-      parse-domain: 8.2.2
-      set-cookie-parser: 2.7.1
 
   '@mercuryworkshop/wisp-js@0.4.0(utf-8-validate@6.0.5)':
     dependencies:
